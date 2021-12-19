@@ -1,0 +1,104 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  background-color: rgb(237, 237, 237);
+  height: 7vh;
+}
+
+nav .left {
+  padding: 10px;
+  flex: 50%;
+  padding-left: 90px;
+  display: flex;
+  align-items: center;
+}
+
+nav .left li {
+  display: inline;
+}
+
+nav .left ul li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+nav .right {
+  flex: 50%;
+  padding: 10px;
+  padding-right: 90px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: hotpink; */
+}
+
+nav .right a {
+  background-color: purple;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px rgb(119, 117, 117);
+  text-decoration: none;
+}
+/* Akhir Navbar */
+
+.container {
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .section {
+  display: flex;
+  /* background-color: aqua; */
+  width: 85%;
+}
+
+.section .left {
+  flex: 40%;
+}
+
+.section .right {
+  /* background-color: deepskyblue; */
+  flex: 60%;
+  padding-left: 30px;
+}
+
+.section .right p {
+  color: grey;
+}
+
+.section .right .skill-container {
+  display: flex;
+}
+
+.section .right .skill-container div {
+  flex: 1;
+}
+
+.skill-container div img {
+  width: 50px;
+  height: 50px;
+}
+
+.section .right .skill-container div .sosmed {
+  display: flex;
+}
+.section .right .sosmed h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+}
+.section .right .sosmed div {
+  display: inline;
+}
